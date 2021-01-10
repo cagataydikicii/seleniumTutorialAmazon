@@ -27,8 +27,8 @@ public class test {
     public void test1() throws InterruptedException {
         methodClass methodClass = new methodClass(driver);
         String xiaomi = "Xiaomi Mi True Wireless Earbuds Basic 2 Bluetooth Kulaklık";
-        String email = "isteBitirmeProje@hotmail.com";
-        String pass = "123456789a";
+        String email = "x";
+        String pass = "x";
         methodClass
                 .openPage(url)
                 .hoverMenu("Giriş yap")
@@ -42,8 +42,8 @@ public class test {
     @Test(description = "Kullanıcı şifresi yanlış hesapla giriş yapılırken uyarı verdiğini kontrol edilmesi")
     public void test2() {
         methodClass methodClass = new methodClass(driver);
-        String email = "isteBitirmeProje@hotmail.com";
-        String pass = "123456789";
+        String email = "x";
+        String pass = "x";
         methodClass
                 .openPage(url)
                 .hoverMenu("Giriş yap")
@@ -55,8 +55,8 @@ public class test {
     @Test(description = "Lokasyon değiştirme")
     public  void test3() throws InterruptedException {
         methodClass methodClass = new methodClass(driver);
-        String email = "isteBitirmeProje@hotmail.com";
-        String pass = "123456789a";
+        String email = "x";
+        String pass = "x";
         methodClass
                 .openPage(url1)
                 .hoverMenu("Sign in")
@@ -70,11 +70,11 @@ public class test {
     @Test(description = "Kullanıcı değiştir")
     public void test4() throws InterruptedException {
         methodClass methodClass = new methodClass(driver);
-        String email = "isteBitirmeProje@hotmail.com";
-        String email1 = "trowyn@gmail.com";
-        String pass = "123456789a";
-        String pass1 = "123456789a";
-        String switchAcc = "Hello, Çağatay";
+        String email = "x";
+        String email1 = "x";
+        String pass = "x";
+        String pass1 = "x;
+        String switchAcc = "x";
         methodClass
                 .openPage(url1)
                 .hoverMenu("Sign in")
@@ -88,8 +88,8 @@ public class test {
     @Test(description = "Para birimi değiştirme")
     public void test5(){
         methodClass methodClass = new methodClass(driver);
-        String email = "isteBitirmeProje@hotmail.com";
-        String pass = "123456789a";
+        String email = "x";
+        String pass = "x";
         methodClass
                 .openPage(url1)
                 .hoverMenu("Sign in")
@@ -102,8 +102,8 @@ public class test {
    @Test(description = "Dil değişikliği yapılarak dilin değiştiğinin kontrolü ")
     public void test6(){
         methodClass methodClass = new methodClass(driver);
-       String email = "trowyn@gmail.com";
-       String pass = "123456789a";
+       String email = "x";
+       String pass = "x";
         methodClass
                 .openPage(url1)
                 .hoverMenu("Sign in")
@@ -116,8 +116,8 @@ public class test {
     public void test7() throws InterruptedException {
       methodClass methodClass = new methodClass(driver);
       String xiaomi = "Xiaomi Mi True Wireless Earbuds Basic 2 Bluetooth";
-      String email = "trowyn@gmail.com";
-      String pass = "123456789a";
+      String email = "x";
+      String pass = "x";
       methodClass
               .openPage(url1)
               .hoverMenu("Sign in")
@@ -132,8 +132,8 @@ public class test {
     public void test8() throws InterruptedException {
       methodClass methodClass = new methodClass(driver);
       String xiaomi = "Xiaomi Mi True Wireless Earbuds Basic 2 Bluetooth";
-      String email = "trowyn@gmail.com";
-      String pass = "123456789a";
+      String email = "x";
+      String pass = "x";
       methodClass
               .openPage(url1)
               .hoverMenu("Sign in")
@@ -146,8 +146,8 @@ public class test {
   @Test(description = "Apple ürünlerine basarak apple ürünlerinin geldiğini sadece kontrol et")
   public void test9() throws InterruptedException {
       methodClass methodClass = new methodClass(driver);
-      String email = "trowyn@gmail.com";
-      String pass = "123456789a";
+      String email = "x";
+      String pass = "x";
       methodClass
               .openPage(url1)
               .hoverMenu("Sign in")
@@ -162,8 +162,8 @@ public class test {
   public void test10() throws InterruptedException {
       methodClass methodClass = new methodClass(driver);
       String xiaomi = "Xiaomi Mi True Wireless Earbuds Basic 2 Bluetooth";
-      String email = "trowyn@gmail.com";
-      String pass = "123456789a";
+      String email = "x";
+      String pass = "x";
       methodClass
               .openPage(url1)
               .hoverMenu("Sign in")
@@ -178,8 +178,8 @@ public class test {
     public void test11() throws InterruptedException {
         methodClass methodClass = new methodClass(driver);
         String xiaomi = "Xiaomi Mi True Wireless Earbuds Basic 2 Bluetooth";
-        String email = "trowyn@gmail.com";
-        String pass = "123456789a";
+        String email = "x";
+        String pass = "x";
         methodClass
                 .openPage(url1)
                 .hoverMenu("Sign in")
@@ -194,8 +194,8 @@ public class test {
     public void test12() throws InterruptedException {
         methodClass methodClass = new methodClass(driver);
         String laptop = "Laptop";
-        String email = "trowyn@gmail.com";
-        String pass = "123456789a";
+        String email = "x";
+        String pass = "x";
         methodClass
                 .openPage(url1)
                 .hoverMenu("Sign in")
